@@ -1,11 +1,11 @@
 ## Color palette
 ## Check https://github.com/rebelot/kanagawa.nvim for more details
-# sumiInk0      "#16161d"
+# sumiInk0      "#0F111A"
 # sumiInk3      "#1f1f28" bg
 # sumiInk4      "#2a2a37"
 # sumiInk6      "#54546d"
 # fujiWhite     "#dcd7ba" fg
-# fujiGray      "#727169"
+# fujiGray      "#E5E9F0"
 # peachRed      "#ff5d62"
 # autumnRed     "#c34043"
 # crystalBlue   "#7e9cd8"
@@ -46,8 +46,8 @@ border_style = { fg = "#BF616A" }
 [mode]
 normal_main = { fg = "#00010A", bg = "#7e9cd8" }
 normal_alt = { fg = "#7e9cd8", bg = "#2a2a37" }
-select_main = { fg = "#00010A", bg = "#B48EAD" }
-select_alt = { fg = "#B48EAD", bg = "#2a2a37" }
+select_main = { fg = "#00010A", bg = "#BF616A" }
+select_alt = { fg = "#BF616A", bg = "#2a2a37" }
 unset_main = { fg = "#00010A", bg = "#EBCB8B" }
 unset_alt = { fg = "#EBCB8B", bg = "#2a2a37" }
 
@@ -70,7 +70,7 @@ perm_sep = { fg = "#B48EAD" }
 
 [pick]
 border = { fg = "#81A1C1" }
-active = { fg = "#B48EAD", bold = true }
+active = { fg = "#BF616A", bold = true }
 inactive = {}
 
 [input]
@@ -87,14 +87,14 @@ inactive = {}
 [tasks]
 border = { fg = "#FF4151" }
 title = {}
-hovered = { fg = "#B48EAD" }
+hovered = { fg = "#BF616A" }
 
 [which]
 cols = 2
 separator = " - "
-separator_style = { fg = "#727169" }
-mask = { bg = "#16161d" }
-rest = { fg = "#727169" }
+separator_style = { fg = "#E5E9F0" }
+mask = { bg = "#0F111A" }
+rest = { fg = "#E5E9F0" }
 cand = { fg = "#7e9cd8" }
 desc = { fg = "#54546d" }
 
@@ -128,7 +128,7 @@ rules = [
     { name = "*", is = "orphan", fg = "#FF4151" },
 
     # executables
-    { name = "*", is = "exec", fg = "#76946a" },
+    { name = "*", is = "exec", fg = "#A3BE8C" },
 
     # fallback
     { name = "*", fg = "#dcd7ba" },
