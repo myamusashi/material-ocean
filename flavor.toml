@@ -1,23 +1,3 @@
-## Color palette
-## Check https://github.com/rebelot/kanagawa.nvim for more details
-# sumiInk0      "#0F111A"
-# sumiInk3      "#1f1f28" bg
-# sumiInk4      "#2a2a37"
-# sumiInk6      "#54546d"
-# fujiWhite     "#dcd7ba" fg
-# fujiGray      "#E5E9F0"
-# peachRed      "#ff5d62"
-# autumnRed     "#c34043"
-# crystalBlue   "#7e9cd8"
-# waveRed       "#e46876"
-# carpYellow    "#e6c384"
-# springGreen   "#A3BE8C"
-# autumnGreen   "#76946a"
-# oniViolet     "#957fb8"
-# waveAqua1     "#6a9589"
-# surimiOrange  "#ffa066"
-# waveAqua2     "#7aa89f"
-
 [manager]
 marker_copied = { fg = "#A3BE8C", bg = "#A3BE8C" }
 marker_cut = { fg = "#BF616A", bg = "#BF616A" }
